@@ -13,13 +13,10 @@
 				 margin: -1000px;
 			}
 			div{
-				width: 500px;
-				height: 500px;
+				width: 200px;
+				height: 200px;
 			}
-			p{
-				text-align: center;
-				font-size: 25px;
-			}
+			
 			span{
 				color: red;
 			}
@@ -33,9 +30,8 @@
 			<li>计算机4</li>
 		</ul>
 		<div>
-			<!-- <table border="3px" width="500px" cellpadding="0px" cellspacing="5px"> -->
 			<table border="3px">
-				<p>班级<p>
+				<p align="center">班级<p>
 				<tr align="center">
 					<td>班级</td>
 					<td>姓名</td>
@@ -47,7 +43,7 @@
 					<td>2022222</td>
 				</tr>
 			</table>
-			<p align="center"> <span>html</span>是当前比较流行的语言</p>
+			<p> <span>html</span>是当前比较流行的语言</p>
 		</div>
 		
 		
