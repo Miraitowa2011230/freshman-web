@@ -1,0 +1,72 @@
+.nav{      /* 导航栏*/
+    height: 70px;
+    background-color: black;
+}
+.nav li{        /*将文字变为行内式*/
+    margin: 20px 70px 10px 70px;
+    display: inline;
+}
+.nav li a{     /* 改变超链接的颜色,行高，删除下划线，左外边距*/
+    color: aliceblue;
+    line-height: 60px;
+    text-decoration: none;
+    margin-left: 85px;
+}
+.cen{       /*中间块元素，行内块，宽，高，顶部外边距，以及背景色*/
+    display: inline-block;
+    width: 1130px;
+    height: 490px;
+    margin-top: 10px;
+    background-color: rgb(119, 125, 125);
+}
+.cen p,.cen img{        /*中间块元素图片以及文字的位置*/
+    margin-left: 20px;
+}
+.div-right{     /*右面上部块元素的行内块，左外边距，宽，高以及绝对位置*/
+    display: inline-block;
+    margin-left: 20px;
+    width: 350px;
+    height: 470px;
+    position: absolute;
+}
+.tab{       /*右上部块元素表格的宽，高，边距，顶部外边距*/
+    height: 300px;
+    width: 345px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.tab td{        /*右上部表格的中单元格的宽，高，以及边框*/
+    height: 30px;
+    width: 345px;
+    border: 1px solid;
+}
+.div-bottom-right{      /*右下部块元素的行内块，宽，高*/
+    display: inline-block;
+    width: 345px;
+    height: 600px;
+}
+.div-bottom-right table{        /*右下部表格的边框，顶部外边框*/
+    border: 1px solid;
+    margin-top: 10px;
+}
+.div-bottom-right table td{     /*右下部表格的单元格的高，宽以及边框*/
+    height: 30px;
+    width: 345px;
+    border: 1px solid;
+}
+.div-bottom-right a{        /*右下部返回顶部的超链接，顶部外边距以及右浮动*/
+    margin-top: 30px;
+    float: right;
+    text-decoration: none;
+}
+.div-bottom{        /*底部块元素*/
+    width: 800px;
+}
+.div-bottom div{        /*底部块元素中的块元素的行内块，以及右外边距*/
+    display: inline-block;
+    margin-right: 100px;
+}
+.div-bottom div p{      /*底部块元素中的块元素的文字颜色以及文字居中*/
+    color: blueviolet;
+    text-align: center;
+}
